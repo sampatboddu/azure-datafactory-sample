@@ -68,7 +68,7 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
-							"wildcardFolderPath": "movielens/movies.parquet",
+							"wildcardFolderPath": "movielens",
 							"wildcardFileName": "*.parquet",
 							"enablePartitionDiscovery": false
 						}
@@ -81,7 +81,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Parquet1",
+						"referenceName": "Parquet2",
 						"type": "DatasetReference"
 					}
 				],
