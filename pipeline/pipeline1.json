@@ -68,8 +68,8 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
-							"wildcardFolderPath": "movielens",
-							"wildcardFileName": "movies.parquet",
+							"wildcardFolderPath": "movielens/movies.parquet",
+							"wildcardFileName": "*.parquet",
 							"enablePartitionDiscovery": false
 						}
 					},
