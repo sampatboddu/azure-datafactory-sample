@@ -1,0 +1,44 @@
+{
+	"name": "Parquet2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "my-learn-blob-container"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "EnglishShortName",
+				"type": "UTF8"
+			},
+			{
+				"name": "alpha2Code",
+				"type": "UTF8"
+			},
+			{
+				"name": "alpha3Code",
+				"type": "UTF8"
+			},
+			{
+				"name": "numericCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "ISO31662SubdivisionCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "independentTerritory",
+				"type": "UTF8"
+			}
+		]
+	}
+}
