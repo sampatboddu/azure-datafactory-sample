@@ -1,0 +1,42 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "EnglishShortName",
+				"type": "varchar"
+			},
+			{
+				"name": "alpha2Code",
+				"type": "varchar"
+			},
+			{
+				"name": "alpha3Code",
+				"type": "varchar"
+			},
+			{
+				"name": "numericCode",
+				"type": "varchar"
+			},
+			{
+				"name": "ISO31662SubdivisionCode",
+				"type": "varchar"
+			},
+			{
+				"name": "independentTerritory",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "country_codes"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
