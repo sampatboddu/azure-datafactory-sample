@@ -73,11 +73,11 @@
 				"userProperties": [
 					{
 						"name": "Source",
-						"value": "my-learn-blob-container//"
+						"value": "my-learn-blob-container/movieslens/*.parquet"
 					},
 					{
 						"name": "Destination",
-						"value": "dbo.country_codes"
+						"value": "dbo.movies"
 					}
 				],
 				"typeProperties": {
