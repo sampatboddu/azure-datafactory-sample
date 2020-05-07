@@ -13,7 +13,16 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [],
+				"userProperties": [
+					{
+						"name": "Source",
+						"value": "my-learn-blob-container/ISOCountryCodes/*"
+					},
+					{
+						"name": "Destination",
+						"value": "dbo.country_codes"
+					}
+				],
 				"typeProperties": {
 					"source": {
 						"type": "ParquetSource",
@@ -61,7 +70,16 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [],
+				"userProperties": [
+					{
+						"name": "Source",
+						"value": "my-learn-blob-container//"
+					},
+					{
+						"name": "Destination",
+						"value": "dbo.country_codes"
+					}
+				],
 				"typeProperties": {
 					"source": {
 						"type": "ParquetSource",
